@@ -296,7 +296,7 @@ button.btn { height: 50px; margin-right: -1px; }
     ----------------------*/
 
 .header-top { border-bottom: 1px solid rgba(255, 255, 255, .2); color: #fff; padding-top: 4px; padding-bottom: 5px; font-size: 14px }
-.header { margin-bottom: 20px; }
+.header { margin-bottom: 2px; }
 .header-top-links { text-align: right; }
 .call-text, .cta-text { margin-left: 20px; }
 .search { top: 5px; }
@@ -308,6 +308,7 @@ button.btn { height: 50px; margin-right: -1px; }
 /*--------------------------
      5.2 Navigations Regular
     ----------------------------*/
+.nav-margin{margin-top: 10px;}
 .header-collapse { background-color: rgba(0, 176, 184, 1); }
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
@@ -476,9 +477,9 @@ button.btn { height: 50px; margin-right: -1px; }
 .widget-clinic-hrs { }
 .widget-story { }
 .dr-social { }
-.dr-header { margin-bottom: 30px; }
+.dr-header { margin-bottom: 15px; }
 .dr-name { font-size: 34px; color: #192121; margin-bottom: 0px; }
-.dr-meta { font-size: 16px; color: #00b0b8; font-weight: 600; text-transform: uppercase; }
+.dr-meta { font-size: 16px; color: #00b0b8; font-weight: 600;}
 .dr-profile-block { margin-top: 30px; margin-bottom: 30px; }
 .dr-profile-icon { color: #00b0b8; font-size: 70px; float: left; }
 .dr-profile-title { font-size: 18px; color: #192121; font-weight: 600; text-transform: uppercase; }

@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon"
+    type="image/png"
+    href="images/favicon.png" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Site is perfectly designed for medical and healthcare website template.">
-    <meta name="keywords" content="medical website templates, bootstrap medical website templates, clinic website template, hospital website template, medical & healthcare Templates, Orthopaedic website templates">
-    <title>Site - Orthopaedic Surgeon Website Template</title>
+    <meta name="keywords" content="medical website templates, bootstrap medical website templates, clinic website template, hospital website template, medical & healthcare Templates, Orthopaedic website templates, Clinic Templates, responsive website template">
+    <title>About Us | East Africa Orthopaedics</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts Family -->
@@ -15,6 +18,11 @@
     <!-- Icon Font CSS -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <!-- Datepick -->
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,92 +33,43 @@
     <![endif]-->
 </head>
 <body>
-    <div class="header-wrapper navbar-fixed-top">
-        <!-- header-wrapper -->
-        <div class="header-top">
-            <!-- header-top -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-                        <p class="welcome-msg">Welcome to Our Orthopaedic Clinic Center</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="header-top-links">
-                            <span class="call-text hidden-sm hidden-xs">1-800-1234-567</span>
-                            <span class="cta-text"><a href="#" class="btn btn-primary btn-xs">Make an Appointment</a></span>
-                            <span class="search">
-                                <!-- Large modal -->
-                                <a href="#" class="" data-toggle="modal" data-target=".search-modal"><i class="fa fa-search"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.header-top -->
-        <div class="header">
-            <!-- header -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                        <a href="index.html"><img src="images/logo.png" alt="Practice - Orthopaedic Surgeon Website Template"></a>
-                    </div>
-                    <div class="col-lg-8">
-                        <div id="navigation">
-                            <ul>
-                                <li><a href="index.html" title="Home">Home</a></li>
-                                <li><a href="about-us.html" title="About Us">About Us</a>
-                                    <ul>
-                                        <li><a href="about-us.html" title="About Us">About Us</a></li>
-                                        <li><a href="doctor-profile.html" title="Doctor Profile">Doctor Profile</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="service-icon.html" title="Treatment">Treatment</a>
-                                    <ul>
-                                        <li><a href="service-icon.html" title="Treatment List">Treatment List</a></li>
-                                        <li><a href="service-sidebar.html" title="Treatment-Sidebar">Treatment Sidebar</a></li>
-                                        <li><a href="service-single.html" title="Treatment Full-width">Treatment Full-width</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="blog-listing.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog-listing.html" title="Blog Listing">Blog Listing</a></li>
-                                        <li><a href="blog-listing-v1.html" title="Blog Listing v1">Blog Listing v1</a></li>
-                                        <li><a href="blog-single.html" title="Blog Single">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="index.html">Features</a>
-                                    <ul>
-                                        <li><a href="index.html" title="Locations">Locations</a></li>
-                                        <li><a href="index.html" title="Faq">Faq</a></li>
-                                        <li><a href="index.html">Gallery</a>
-                                            <ul>
-                                                <li><a href="index.html" title="Filterable Gallery 3 column">Filterable Gallery 3 column</a></li>
-                                                <li><a href="index.html" title="Masonry Gallery">Masonry Gallery</a></li>
-                                                <li><a href="index.html" title="Zoom Gallery">Zoom Gallery</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index.html" title="Shortcodes">Shortcodes</a>
-                                            <ul>
-                                                <li> <a href="index.html" title="Accordions">Accordions</a> </li>
-                                                <li> <a href="index.html" title="Tabs">Tabs</a></li>
-                                                <li> <a href="index.html" title="Alerts">Alerts</a></li>
-                                                <li> <a href="index.html" title="Call to actions">Call to actions</a></li>
-                                                <li> <a href="index.html" title="Columns">Columns</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="index.html" title="Contact us">Contact us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.header -->
-    </div>
+  <div class="header-wrapper navbar-fixed-top">
+
+      <div class="header">
+          <!-- header -->
+          <div class="container">
+              <div class="row ">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                      <a href="index.html"><img src="images/logo.png" alt="Site - Orthopaedic Surgeon Website Template"></a>
+                  </div>
+                  <div class="col-lg-8 nav-margin">
+                      <div id="navigation">
+                          <ul>
+                              <li><a href="index.html" title="Home">Home</a></li>
+                              <li><a href="body-parts.html" title="Treatment">Body Parts</a>
+                                  <ul>
+                                      <li><a href="body-parts.html" title="Ankle & Foot">Ankle & Foot</a></li>
+                                      <li><a href="body-parts.html" title="Hip">Hip</a></li>
+                                      <li><a href="body-parts.html" title="Knee">Knee</a></li>
+                                      <li><a href="body-parts.html" title="Shoulder">Shoulder</a></li>
+                                      <li><a href="body-parts.html" title="Spine">Spine</a></li>
+                                  </ul>
+                              </li>
+
+                              <li><a href="doctor-profile.html" title="Doctors Profiles">Doctors Profiles</a></li>
+                              <li><a href="about-us.html" title="About Us">About Us</a></li>
+                              <li><a href="contact.html" title="Contact">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+      <!-- /.header -->
+  </div>
     <!-- /.header-wrapper -->
     <div class="page-header">
         <!-- page-header -->
@@ -222,7 +181,7 @@
             <div class="footer_sections footer_about">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <div class="footer_logo"><img src="images/logo.png" alt="Practice - Orthopaedic Surgeon Website Template"></div>
+                        <div class="footer_logo"><img src="images/logo.png" alt=""></div>
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum purus non graviduis congue arcu. Cras tincidunt voluLorem ipsum dolor sit amet, consectetur adipisnon graviduis cotempor.Donec dictum purus non graviduis congue arcu. Cras tincidunt volutpat magna ut tempor.</p>
@@ -231,106 +190,55 @@
             </div>
             <div class="footer_sections footer_contact">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="ft_address">
-                            <span class="ft_icon"> <i class="icon-placeholder icon-1x"></i></span>
-                            <span class="address_text">Orthopaedic Clinic, Zeppelinstr 53 3970 SYDNEY NSW</span>
+                          <span class="ft_icon"> <i class="icon-placeholder icon-1x"></i></span>
+                          <span class="address_text">The Aga Khan University Hospital, <br>3rd Parklands Avenue<br> Nairobi, Kenya</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="ft_phone">
-                            <span class="ft_icon"><i class="icon-phone-call-3 icon-1x"></i></span>
-                            <span class="phone_text">1- 800-1234-567 <br>
-                        1- 800-1234-567</span>
+                          <span class="ft_icon"><i class="icon-phone-call-3 icon-1x"></i></span>
+                          <span class="phone_text">+254-200-93890<br>+254-600-87903</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="ft_email">
-                            <span class="ft_icon"><i class="icon-mail-4 icon-1x"></i></span>
-                            <span class="email_text">info@orthopedic.com</span>
+                          <span class="ft_icon"><i class="icon-mail-4 icon-1x"></i></span>
+                          <span class="email_text">info@ea-ortho.com</span>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-8 col-xs-12">
-                        <div class="ft_social_share">
-                            <ul>
-                                <li>
-                                    <a href="#"> <i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-google-plus"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
-            </div>
-            <div class="footer_sections">
                 <div class="row">
-                    <div class="ccol-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <h3 class="footer_title">Quick links</h3>
-                        <div class="ft_menu">
-                            <ul>
-                                <li><a href="#">Who we are</a></li>
-                                <li><a href="#">Patient Story</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Appointments</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <h3 class="footer_title">Serve we area</h3>
-                        <div class="ft_menu">
-                            <ul>
-                                <li><a href="#">Melbourne</a></li>
-                                <li><a href="#">Geelong</a></li>
-                                <li><a href="#">Swan Hill</a></li>
-                                <li><a href="#">Mildura</a></li>
-                                <li><a href="#">Horsham</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <h3 class="footer_title">Subscribe the newsletter</h3>
-                        <p>Subscribe to our newsletter and stay updated on the latest news. We will keep you informed about special offers.</p>
-                        <div class="newsletter_form">
-                            <form action="index.html" method="post">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Write Email Address">
-                                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="submit">subscribe</button>
-                              </span>
-                                        </div>
-                                        <!-- /input-group -->
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                      <div class="ft_social_share">
+                          <ul>
+                              <li>
+                                  <a href="#"> <i class="fa fa-facebook"></i></a>
+                              </li>
+                              <li>
+                                  <a href="#"> <i class="fa fa-twitter"></i></a>
+                              </li>
+                              <li>
+                                  <a href="#"> <i class="fa fa-google-plus"></i></a>
+                              </li>
+                              <li>
+                                  <a href="#"> <i class="fa fa-linkedin"></i></a>
+                              </li>
+                              <li>
+                                  <a href="#"> <i class="fa fa-youtube"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- /.footer -->
-    <div class="tiny_footer">
-        <!-- tiny_footer -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><small>2017-2018 © Orthopaedic Surgery & Sports</small></div>
-            </div>
-        </div>
-    </div>
+
     <div class="modal fade search-modal" tabindex="-1" role="dialog" style="display: none;">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
