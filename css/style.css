@@ -218,7 +218,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .bg-secondary { background-color: #ecaa30; color: #fff; }
 .well { border: transparent; border-radius: 0px; padding: 40px 30px; }
 .text-white { color: #fff; }
-.section-title { margin-bottom: 60px; }
+.section-title { margin-bottom: 20px; }
 .well-section { background-color: #fff; padding: 40px; border-radius: 2px; color: #333; }
 
 /*--------------------------------
