@@ -244,7 +244,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .feature-number-block { }
 .number { height: 36px; width: 36px; border-radius: 50%; border: 2px solid #ecac34; padding: 7px; text-align: center; line-height: 1; color: #ecac34; float: left; }
 .number-content { }
-.feature-title { }
+.feature-title { 	font-size: 1.17em ; font-weight: bolder }
 .feature-number-title { padding-left: 60px; }
 
 /*--------------------------------
