@@ -35,16 +35,16 @@
     <script>
     $(document).ready(function(){
       $("#njalalle").click(function(){
-        $(".njalalle-content").fadeIn();
-        $(".mordicai-content").fadeOut("slow");
+        $(".njalalle-content").fadeIn("slow");
+        $(".mordicai-content").fadeOut();
         $(this).css('background-color','#24bac0')
         // border-color: #24bac0;
       });
     });
     $(document).ready(function(){
       $("#mordicai").click(function(){
+        $(".njalalle-content").fadeOut();
         $(".mordicai-content").fadeIn("slow");
-        $(".njalalle-content").fadeOut("slow");
       });
     });
     </script>

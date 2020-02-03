@@ -334,7 +334,7 @@ button.btn { height: 50px; margin-right: -1px; }
      5.2 Navigations Regular
     ----------------------------*/
 .nav-margin{margin-top: 10px;}
-.header-collapse { background-color: rgba(0, 176, 184, 1); }
+.header-collapse { background-color: white; }
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 #navigation #menu-button { display: none; }
@@ -344,7 +344,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.align-center > ul > li { display: inline-block; float: none; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right > ul > li { float: right; }
-#navigation > ul > li > a { padding: 17px; font-size: 15px; letter-spacing: 1px; text-decoration: none; color: #fff; font-weight: 700; text-transform: uppercase; }
+#navigation > ul > li > a { padding: 17px; font-size: 15px; letter-spacing: 1px; font-family: 'Roboto Condensed', sans-serif;text-decoration: none; color: black; font-weight: 700; text-transform: uppercase; }
 #navigation > ul > li:hover > a { color: #ffffff; }
 #navigation > ul > li.has-sub > a { padding-right: 30px; }
 
