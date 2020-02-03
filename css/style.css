@@ -402,6 +402,8 @@ button.btn { height: 50px; margin-right: -1px; }
      5.3 Page Header
     ----------------------------*/
 .page-header { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/page-header.jpg) no-repeat center; }
+.page-header-shoulder { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/shoulder_header.jpg) no-repeat center; }
+
 .page-section { padding: 80px 0px 80px 0px; }
 .page-title { color: #fff; font-size: 48px; margin-bottom: 0px; line-height: 48px; text-transform: capitalize; }
 .page-breadcrumb { background-color: #fff; border-bottom: 1px solid #ebe8e2; }
@@ -554,6 +556,9 @@ button.btn { height: 50px; margin-right: -1px; }
 .arrow-circle-right li:last-child { border-bottom: 0px solid #6f4a52; }
 .arrow-circle-right li a:before { margin-right: 10px; font-family: FontAwesome; position: absolute; left: 20px; width: 20px; font-size: 16px; color: #5a5a5a; content: "\f105"; font-weight: normal; }
 
+.conditions-list li a {color: #fff; background-color: #ecaa30; border-color: #ecaa30; }
+.conditions-list li a:hover { color: #fff; background-color: #ffb834; border-color: #ffb834; }
+.conditions-list li.active a {  color: #fff; background-color: #ffb834; border-color: #ffb834; }
 /*------------------------
  9.4 Location
 --------------------------*/
