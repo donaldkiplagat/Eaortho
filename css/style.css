@@ -115,6 +115,13 @@ select.form-control { background-color: #fff; color: #a19e98; -webkit-appearance
 -----------------------------------*/
 .btn { padding: 12px 18px; margin-bottom: 0; font-size: 14px; font-weight: 600; text-transform: uppercase; border-radius: 2px; letter-spacing: 1px; }
 .btn-default { color: #fff; background-color: #24bac0; border-color: #24bac0; }
+
+.btn-mordicai { color: #fff; background-color: #ecaa30; border-color: #ecaa30; margin-top: 10px; }
+.btn-njalalle { color: #fff; background-color: #24bac0; border-color: #24bac0; margin-top: 10px;}
+
+.btn-mordicai:hover { color: #fff; background-color: #ffb834; border-color: #ffb834; }
+.btn-njalalle:hover { color: #fff; background-color: #28cbd2; border-color: #28cbd2; }
+
 .btn-default:hover { color: #fff; background-color: #28cbd2; border-color: #28cbd2; }
 .btn-primary { color: #fff; background-color: #ecaa30; border-color: #ecaa30; }
 .btn-primary:hover { color: #fff; background-color: #ffb834; border-color: #ffb834; }
@@ -305,6 +312,24 @@ button.btn { height: 50px; margin-right: -1px; }
 .cta-text { }
 .search-sign { }
 
+
+/* Youtube Videos */
+.youtube-video{
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+.youtube-video iframe, .youtube-video object, .youtube-video embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
 /*--------------------------
      5.2 Navigations Regular
     ----------------------------*/
@@ -412,8 +437,10 @@ button.btn { height: 50px; margin-right: -1px; }
 /*-----------------------------------
 7. Content
 -------------------------------------*/
-.content { padding-bottom: 60px; padding-top: 60px; }
+.content { padding-bottom: 60px; padding-top: 30px; }
 .sidebar { background-color: #fbf9f4; }
+
+.njalalle-content{display: none;}
 
 /*-----------------------------------
 8. Footer
@@ -507,6 +534,8 @@ button.btn { height: 50px; margin-right: -1px; }
 .service-circle i { color: #fff; font-size: 200px; }
 .treatment-block { margin-bottom: 40px; margin-top: 20px; }
 .text-blurb { margin-bottom: 40px; }
+.symptoms-text{margin-top: 30px;}
+.causes-text{margin-top: 30px;}
 
 /*-----------------------------------------
      service side-nav
