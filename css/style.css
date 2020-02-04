@@ -334,6 +334,7 @@ button.btn { height: 50px; margin-right: -1px; }
      5.2 Navigations Regular
     ----------------------------*/
 .nav-margin{margin-top: 10px;}
+.header{background-color: white;}
 .header-collapse { background-color: white; }
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
@@ -345,7 +346,7 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right > ul > li { float: right; }
 #navigation > ul > li > a { padding: 17px; font-size: 15px; letter-spacing: 1px; font-family: 'Roboto Condensed', sans-serif;text-decoration: none; color: black; font-weight: 700; text-transform: uppercase; }
-#navigation > ul > li:hover > a { color: #ffffff; }
+#navigation > ul > li:hover > a { color: #28cbd2; }
 #navigation > ul > li.has-sub > a { padding-right: 30px; }
 
 /*#navigation > ul > li.has-sub > a:after {position: absolute; top: 22px; right: 11px; width: 8px; height: 2px;
@@ -378,22 +379,22 @@ button.btn { height: 50px; margin-right: -1px; }
 #navigation.small-screen > ul > li { float: none; }
 #navigation.small-screen ul ul li a { padding-left: 25px; }
 #navigation.small-screen ul ul ul li a { padding-left: 35px; }
-#navigation.small-screen ul ul li a { color: #fff; background: none; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 1px; }
-#navigation.small-screen ul ul li:hover > a, #navigation.small-screen ul ul li.active > a { color: #ffffff; }
+#navigation.small-screen ul ul li a { color: black; background: none; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 1px; }
+#navigation.small-screen ul ul li:hover > a, #navigation.small-screen ul ul li.active > a { color: #24bac0; }
 #navigation.small-screen ul ul, #navigation.small-screen ul ul ul, #navigation.small-screen.align-right ul ul { position: relative; left: 0; width: 100%; margin: 0; text-align: left; }
 #navigation.small-screen > ul > li.has-sub > a:after, #navigation.small-screen > ul > li.has-sub > a:before, #navigation.small-screen ul ul > li.has-sub > a:after, #navigation.small-screen ul ul > li.has-sub > a:before { display: none; }
-#navigation.small-screen #menu-button { display: block; padding: 17px; color: #fff; cursor: pointer; font-size: 12px; text-transform: uppercase; font-weight: 700; }
-#navigation.small-screen #menu-button:after { position: absolute; top: 22px; right: 17px; display: block; height: 8px; width: 20px; border-top: 2px solid #fff; border-bottom: 2px solid #fff; content: ''; }
-#navigation.small-screen #menu-button:before { position: absolute; top: 16px; right: 17px; display: block; height: 2px; width: 20px; background: #fff; content: ''; }
-#navigation.small-screen #menu-button.menu-opened:after { top: 23px; border: 0; height: 2px; width: 15px; background: #fff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-#navigation.small-screen #menu-button.menu-opened:before { top: 23px; background: #fff; width: 15px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+#navigation.small-screen #menu-button { display: block; padding: 17px; color: black; cursor: pointer; font-size: 12px; text-transform: uppercase; font-weight: 700; }
+#navigation.small-screen #menu-button:after { position: absolute; top: 22px; right: 17px; display: block; height: 8px; width: 20px; border-top: 2px solid black; border-bottom: 2px solid black; content: ''; }
+#navigation.small-screen #menu-button:before { position: absolute; top: 16px; right: 17px; display: block; height: 2px; width: 20px; background: black; content: ''; }
+#navigation.small-screen #menu-button.menu-opened:after { top: 23px; border: 0; height: 2px; width: 15px; background: black; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+#navigation.small-screen #menu-button.menu-opened:before { top: 23px; background: black; width: 15px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
 #navigation.small-screen .submenu-button { position: absolute; z-index: 99; right: 0; top: 0; display: block; border-left: 1px solid rgba(120, 120, 120, 0.2); height: 46px; width: 46px; cursor: pointer; }
-#navigation.small-screen .submenu-button.submenu-opened { background: #00b0b8; }
+#navigation.small-screen .submenu-button.submenu-opened { background: #fff; }
 #navigation.small-screen ul ul .submenu-button { height: 34px; width: 34px; }
-#navigation.small-screen .submenu-button:after { position: absolute; top: 22px; right: 19px; width: 8px; height: 2px; display: block; background: #fff; content: ''; }
+#navigation.small-screen .submenu-button:after { position: absolute; top: 22px; right: 19px; width: 8px; height: 2px; display: block; background: black; content: ''; }
 #navigation.small-screen ul ul .submenu-button:after { top: 15px; right: 13px; }
-#navigation.small-screen .submenu-button.submenu-opened:after { background: #ffffff; }
-#navigation.small-screen .submenu-button:before { position: absolute; top: 19px; right: 22px; display: block; width: 2px; height: 8px; background: #fff; content: ''; }
+#navigation.small-screen .submenu-button.submenu-opened:after { background: black; }
+#navigation.small-screen .submenu-button:before { position: absolute; top: 19px; right: 22px; display: block; width: 2px; height: 8px; background: black; content: ''; }
 #navigation.small-screen ul ul .submenu-button:before { top: 12px; right: 16px; }
 #navigation.small-screen .submenu-button.submenu-opened:before { display: none; }
 #navigation.small-screen.select-list { padding: 5px; }
@@ -775,11 +776,12 @@ opacity: .5; }
   .slider-captions { background-color: transparent; color: #FFF; bottom: 60px; padding: 0px; }
   .slider-title { font-size: 32px; line-height: 32px; color: #fff }
   .slider-captions .btn { font-size: 12px; padding: 4px; }
-  .header-wrapper #navigation > ul > li > a { padding: 20px 14px; font-size: 12px; letter-spacing: 1px; text-decoration: none; color: #fff; font-weight: 700; text-transform: uppercase; }
+  .header-wrapper #navigation > ul > li > a { padding: 20px 14px; font-size: 12px; letter-spacing: 1px; text-decoration: none; color: black; font-weight: 700; text-transform: uppercase; }
   #slider .owl-prev { position: absolute; top: 40%; left: 0px; }
   #slider .owl-next { position: absolute; top: 40%; right: 0px; }
   #slider .owl-prev, #slider .owl-next { font-size: 20px; }
   #slider .owl-pagination { position: absolute; bottom: -15px; margin: 0 auto; width: 100%; }
+
   .childern { padding-left: 0px; }
   .page-header { padding: 0px 0px 0px 0px; }
 }

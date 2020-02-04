@@ -31,8 +31,28 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#pain").click(function(){
+        $(".acromio_2").fadeIn();
+        $(".acromio_1").fadeOut();
+        $(this).css('background-color','#24bac0')
+        // border-color: #24bac0;
+      });
+    });
+
+    </script>
+
 </head>
 <body>
+
+  <style>
+  .acromio_2{
+    display:none
+  }
+  </style>
   <div class="header-wrapper navbar-fixed-top">
 
       <div class="header">
@@ -46,7 +66,7 @@
                       <div id="navigation">
                           <ul>
                               <li><a href="index.html" title="Home">Home</a></li>
-                              <li><a href="body-parts.html" title="Treatment">Body Parts</a>
+                              <li><a href="body-parts.html" title="Treatment">Body Region</a>
                                   <ul>
                                       <li><a href="body-parts.html" title="Ankle & Foot">Ankle & Foot</a></li>
                                       <li><a href="body-parts.html" title="Hip">Hip</a></li>
@@ -113,7 +133,13 @@
                                   <div class="section-title text-center">
                                       <h1>Acromio-clavicular Joint Pathology</h1>
                                   </div>
-                                    <div class="col-md-12 col-sm-12"> <img src="images/acromioclavicular.jpg" class="img-responsive mb30" alt="Body Part">
+                                    <div class="col-md-12 col-sm-12" id="acromio">
+                                      <div class="acromio_1">
+                                        <img src="images/acromioclavicular.jpg" class="img-responsive mb30" alt="Body Part">
+                                      </div>
+                                    <div class="acromio_2">
+                                      <img src="images/acromioclavicular2.jpg" class="img-responsive mb30" alt="Body Part">
+                                    </div>
                                         <div class="mb30">
                                             <h2 class="text-center">Anatomy</h2>
                                             <p>The shoulder is a ball and socket joint in the upper extremity that is in part responsible for the positioning of the hand in space. It is made up of the gleno-humeral joint, the acromio-clavicular joint and sternoclavicular joint. These joints are lined with cartilage (gristle) for smooth movement. Like every other joint in the body, the shoulder can suffer from wear and tear of the cartilage – arthritis. This is most commonly observed after middle age and it mainly afflicts the glenohumeral and acromioclavicular parts of the joint.</p>
@@ -125,16 +151,16 @@
                                       <iframe width="560" height="315" src="https://www.youtube.com/embed/oJz76hYa4jI" frameborder="0" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                    </div>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                     <div class="text-blurb causes-text">
-                                        <h2>Causes</h2>
+                                        <h2 class="text-center">Causes</h2>
                                         <p>Degeneration of the acromio-clavicular joint is almost always a part of the ageing process. Bags and bra straps often pass over this joint and may make the symptoms worse.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
                                     <div class="text-blurb symptoms-text">
-                                        <h2>Symptoms</h2>
-                                        <p>This manifests as pain at the top of the shoulder when the arm is elevated and made worse when wearing a bra or carrying a bag on the shoulder. In severe cases the top of the shoulder may hurt at rest.
+                                        <h2 class="text-center">Symptoms</h2>
+                                        <p>This manifests as <a href="#acromio" id="pain">pain</a> at the top of the shoulder when the arm is elevated and made worse when wearing a bra or carrying a bag on the shoulder. In severe cases the top of the shoulder may hurt at rest.
                                           After a history and examination an X-ray is taken which confirms the diagnosis in most cases. Some of the time it isn’t clear despite X-rays and in these cases an MRI scan of the shoulder may be recommended.</p>
                                     </div>
                                 </div>

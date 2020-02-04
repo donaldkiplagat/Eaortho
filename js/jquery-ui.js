@@ -13824,7 +13824,7 @@ var widgetsSelectmenu = $.widget( "ui.selectmenu", [ $.ui.formResetMixin, {
 	options: {
 		appendTo: null,
 		classes: {
-			"ui-selectmenu-button-open": "ui-corner-top",
+			"ui-selectmenu-button-open": "ui-corner-top"
 			"ui-selectmenu-button-closed": "ui-corner-all"
 		},
 		disabled: null,
