@@ -333,6 +333,7 @@ button.btn { height: 50px; margin-right: -1px; }
 /*--------------------------
      5.2 Navigations Regular
     ----------------------------*/
+.header{padding-top: 3px;}
 .nav-margin{margin-top: 10px;}
 .header{background-color: white;}
 .header-collapse { background-color: white; }
@@ -441,6 +442,10 @@ button.btn { height: 50px; margin-right: -1px; }
 .slider .owl-dots .owl-dot.active span { background-color: #ecaa30; }
 .slider .owl-dots .owl-dot.active span, .slider .owl-controls.clickable .owl-page:hover span { background-color: #ecaa30; filter: Alpha(Opacity=100);    /*IE7 fix*/ opacity: 1; }
 
+
+.owl-stage{
+  transition: all 0.80s ease 0s;
+}
 /*-----------------------------------
 7. Content
 -------------------------------------*/
