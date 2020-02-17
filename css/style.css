@@ -321,6 +321,7 @@ button.btn { height: 50px; margin-right: -1px; }
   height:0;
   overflow:hidden;
 }
+
 .youtube-video iframe, .youtube-video object, .youtube-video embed {
   position:absolute;
   top:0;
@@ -330,10 +331,12 @@ button.btn { height: 50px; margin-right: -1px; }
 }
 
 
+
+
 /*--------------------------
      5.2 Navigations Regular
     ----------------------------*/
-.header{padding-top: 3px;}
+.header{padding-top: 5px;}
 .nav-margin{margin-top: 10px;}
 .header{background-color: white;}
 .header-collapse { background-color: white; }
