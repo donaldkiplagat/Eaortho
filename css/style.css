@@ -407,7 +407,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .page-header-foot { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/foot_header.jpg) no-repeat center; }
 .page-header-hip { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/hip_header.jpg) no-repeat center; }
 .page-header-spine { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/spine_header.jpg) no-repeat center; }
-
+.page-header-knee { background-size: cover; margin: 0; padding: 130px 0px 0px 0px; border: none; background: linear-gradient(rgba(5, 95, 95, 0.7), rgba(5, 95, 95, 0.7)), rgba(5, 95, 95, 0.7) url(img/knee_header.jpg) no-repeat center; }
 
 .page-section { padding: 80px 0px 80px 0px; }
 .page-title { color: #fff; font-size: 48px; margin-bottom: 0px; line-height: 48px; text-transform: capitalize; }
