@@ -547,6 +547,12 @@ button.btn { height: 50px; margin-right: -1px; }
 .service-img { position: relative; margin-bottom: 30px; }
 .service-circle { background-color: #00b0b8; border-radius: 100%; padding: 80px 70px; margin: 0 auto 20px auto; }
 .service-circle i { color: #fff; font-size: 200px; }
+
+.service-image{ text-align: center;margin-bottom: 10px;}
+.middle-service-circle { background-color: #00b0b8; border-radius: 50%; padding: 30px 130px; width:25px; display: inline-block;}
+.middle-service-circle i { color: #fff; font-size: 170px; }
+.middle-icon{margin-left: -40px;}
+
 .treatment-block { margin-bottom: 40px; margin-top: 20px; }
 .text-blurb { margin-bottom: 40px; }
 .symptoms-text{margin-top: 30px;}
