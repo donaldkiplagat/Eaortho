@@ -90,6 +90,11 @@ strong { font-weight: 600; }
 blockquote.alignleft { max-width: 50%; border: none; padding: 30px; font-style: italic; font-size: 21px; color: #00b0b8; line-height: 35px; background-color: #fbf9f4; }
 .alignleft { float: left; margin: 30px 30px 30px 0; }
 .alignright { float: right; margin: 0px 0 20px 20px; }
+.img-center{
+
+  margin-left: 5%;
+  }
+
 
 /*-----------------------------------
     2. Form css
@@ -527,6 +532,11 @@ button.btn { height: 50px; margin-right: -1px; }
 .dr-profile-title { font-size: 18px; color: #192121; font-weight: 600; text-transform: uppercase; }
 .dr-profile-content { padding-left: 100px; }
 
+.space-title{
+  margin-bottom: 21px;
+  line-height: 200px;
+}
+
 /*-------------------------
   9.3  Service / single / sidebar
 --------------------------*/
@@ -552,6 +562,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .middle-service-circle { background-color: #00b0b8; border-radius: 50%; padding: 30px 130px; width:25px; display: inline-block;}
 .middle-service-circle i { color: #fff; font-size: 170px; }
 .middle-icon{margin-left: -40px;}
+.hip-middle-icon{margin-left: -80px;}
 
 .treatment-block { margin-bottom: 40px; margin-top: 20px; }
 .text-blurb { margin-bottom: 40px; }

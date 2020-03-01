@@ -58,7 +58,7 @@
 
                               <li><a href="doctor-profile.html" title="Doctors Profiles">Doctors Profiles</a></li>
                               <li><a href="about-us.html" title="About Us">About Us</a></li>
-                              <li><a href="contact.html" title="Contact">Contact</a></li>
+                              <li><a href="#"  data-toggle="modal" data-target="#basicModal" title="Contact">Contact</a></li>
                           </ul>
                       </div>
                   </div>
@@ -109,7 +109,6 @@
                 <div class="col-lg-offset-2 col-lg-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-xs-12">
                     <div class="section-title text-center">
                         <h1>Know about East Africa Orthopaedics</h1>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
                 </div>
             </div>
@@ -122,9 +121,9 @@
                     </div>
                     <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-6 col-xs-12">
                         <div class="about-content">
-                            <h1 class="about-title">Who we are - Leading Orthopaedic Site</h1>
-                            <p class="mb30">Ac feugiat sed lectus vestibulum mattis ullamcorper. Purus sit amet luctus venenatis lectus magna fringilla urna porttitor. Amet venenatis urna cursus eget nunc scelerisque. Cum sociis natoque penatibus et magnis. Est lorem ipsum dolor sit. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum.</p>
-                            <a href="#" class="btn btn-default">meet doctors</a>
+                            <h1 class="about-title">Who we are</h1>
+                            <p class="mb30">We are fellowship trained orthopaedic and arthroscopy surgeons looking to inform and empower patients in the East African region and beyond. We are also passionate about East African sports and returning patients to optimum levels of performance.</p>
+                            <a href="doctor-profile.html" class="btn btn-default">view blog</a>
                         </div>
                     </div>
                 </div>
@@ -133,9 +132,9 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="about-content">
-                            <h1 class="about-title">Why Choose us - See what our patients are saying</h1>
-                            <p class="mb30">Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Scelerisque felis imperdiet proin fermentum leo vel orci. Sodales ut etiam sit amet. Velit ut tortor pretium viverra suspendisse potenti nullam ac. Augue interdum velit euismod in pellentesque.</p>
-                            <a href="#" class="btn btn-default">View Testimonial</a>
+                            <h1 class="about-title">Why Choose us</h1>
+                            <p class="mb30">We are accessible and offer a comprehensive service with a tailored and individualized management plan. This will be based on your medical history, functional demands and sporting aspirations.</p>
+                            <a href="#" class="btn btn-default">meet doctors</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -149,14 +148,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="about-img">
-                            <a href="#" class="imghover"><img src="images/about-3.jpg" alt="Body Part" class="img-responsive"></a>
+                            <a href="body_parts.html" class="imghover"><img src="images/about-3.jpg" alt="Body Part" class="img-responsive"></a>
                         </div>
                     </div>
                     <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-6 col-xs-12">
                         <div class="about-content">
-                            <h1 class="about-title">Orthopaedic Surgery that We Offer</h1>
-                            <p class="mb30">Vestibulum molestie vel magna vel finibus. Quisque egestas conguegue consectetur sodales. Nunc sit amet sagittis tortor. Aenean facilisis massa eros, quis condimentum sem lacinia eu.</p>
-                            <a href="#" class="btn btn-default">view services</a>
+                            <h1 class="about-title">Celebrating East Africa's Sporting Achievements</h1>
+                            <p class="mb30">At EA-Ortho we appreciate the East Africa's sporting achievements. Many of our athletes are world conquerors in their fields. Check out our blog to find out more</p>
+                            <a href="body_parts.html" class="btn btn-default">View Blog</a>
                         </div>
                     </div>
                 </div>
@@ -239,24 +238,71 @@
     </div>
     <!-- /.footer -->
 
-    <div class="modal fade search-modal" tabindex="-1" role="dialog" style="display: none;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for...">
-                            <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                         </span>
-                        </div>
-                        <!-- /input-group -->
-                    </div>
-                    <!-- /.col-lg-6 -->
-                </div>
+    <!-- Contact Modal -->
+
+      <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times  </button>
+              <h3 class="modal-title text-center" id="myModalLabel">Contact Us</h3>
             </div>
+            <div class="modal-body">
+
+              <form class="form-horizontal" method="post" action="index.html">
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Name"> </label>
+                      <div class="col-md-12">
+                          <input id="Name" name="Name" type="text" placeholder="Name" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Email"> </label>
+                      <div class="col-md-12">
+                          <input id="Email" name="Email" type="email" placeholder="Email" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Phone"> </label>
+                      <div class="col-md-12">
+                          <input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Select Basic -->
+                  <div class="form-group">
+                      <label class="control-label" for="Body Region"> </label>
+                      <div class="col-md-12">
+                          <select id="Body Region" name="Body Region" class="form-control">
+                              <option value="Shoulder">Shoulder</option>
+                              <option value=Knee>Knee</option>
+                              <option value="Foot & Ankle">Foot & Ankle</option>
+                              <option value="Hip">Hip</option>
+                              <option value="Spine">Spine</option>
+                          </select>
+                      </div>
+                  </div>
+                  <!-- Text input-->
+
+                  <!-- Button -->
+                  <div class="form-group">
+                      <div class="col-md-12 text-center">
+                          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send inquiry</button>
+                      </div>
+                  </div>
+              </form>
+
+                  </div>
+            </div>
+
+          </div>
         </div>
-    </div>
+
+
+    <!-- End of Contact Modal -->
+
     <!-- /.tiny_footer -->
     <!-- back to top icon -->
     <a href="#0" class="cd-top" title="Go to top">Top</a>

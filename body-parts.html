@@ -58,7 +58,7 @@
 
                               <li><a href="doctor-profile.html" title="Doctors Profiles">Doctors Profiles</a></li>
                               <li><a href="about-us.html" title="About Us">About Us</a></li>
-                              <li><a href="contact.html" title="Contact">Contact</a></li>
+                              <li><a href="#"  data-toggle="modal" data-target="#basicModal" title="Contact">Contact</a></li>
                           </ul>
                       </div>
                   </div>
@@ -112,9 +112,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-offset-2 col-lg-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-xs-12">
-                    <div class="section-title text-center">
-                        <h1>The Treatments We Offer</h1>
-                        <p>We are specializes in treatment of Hip, Knee, Shoulder and other musculoskeletal Body Region.</p>
+                    <div class="section-title text-center space-title">
+                        <h2>We specialize in treatment of Knee & Shoulder disorders, as well as offering general orthopaedic advice.</h2>
                     </div>
                 </div>
             </div>
@@ -128,7 +127,7 @@
                           <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                               <div class="treatment-content">
                                   <h2 class="treatment-title"><a href="shoulder_conditions.html" class="title">Shoulder</a></h2>
-                                  <p>Phasellus tincidunt tincidunt neque, id ornare ligula blandit sed. Praesent vitae volutpat ligula. Mauris accumsan at erat sed sollicitudin. Aenean consex convallis lorem ipsum dorloquis.</p>
+                                  <p>The shoulder is a ball and socket joint in the upper extremity. The glenoid (the socket) and the humeral head (ball) form the gleno-humeral joint. This joint is enclosed in a capsule.</p>
                                   <a href="shoulder_conditions.html" class="btn-link">View Conditions</a>
                               </div>
                           </div>
@@ -145,7 +144,7 @@
                             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                 <div class="treatment-content">
                                     <h2 class="treatment-title"><a href="knee_conditions.html" class="title">Knee</a></h2>
-                                    <p>Ut porttitor ligula nec mattis porttitor. Nunc ut leo sit amet mauris auctor mpus molestie. Vivamus facilisis lulla ut purus vel diam tincidunt gravida. Donec in ortis enim quis, iaculis odio.</p>
+                                    <p>The knee joint is the largest joint in the human body, and the joint most commonly affected by arthritis. Understanding its anatomy can help in knowing how its infections develop.</p>
                                     <a href="knee_conditions.html" class="btn-link">View Conditions</a>
                                 </div>
                             </div>
@@ -161,7 +160,7 @@
                             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                 <div class="treatment-content">
                                     <h2 class="treatment-title"><a href="hip_conditions.html" class="title">Hip</a></h2>
-                                    <p>Vestibulum molestie vel magna vel finibus. Quisque egestas conguegue consectetur sodales. Nunc sit amet sagittis tortor. Aenean facilisis massa eros, quis condimentum sem lacinia eu.</p>
+                                    <p>The hip is a ball and socket joint comprising the acetabulum of the pelvis (socket) and the femoral head (ball). Multiple causes can bring about experiencing pain on the hip. </p>
                                     <a href="hip_conditions.html" class="btn-link">View Conditions</a>
                                 </div>
                             </div>
@@ -177,7 +176,7 @@
                             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                 <div class="treatment-content">
                                     <h2 class="treatment-title"><a href="foot_conditions.html" class="title">Foot & Ankle</a></h2>
-                                    <p>Aenean urna magna, lobortis in metus id, semper gravida nibh. Nullam in mi felis. Mauris ut tellus a est feugiat egestas. Integer id luctus neque, vitae euissem eget tortor eleifend sodales. </p>
+                                    <p>With the constant impact of walking and running, it's not surprising that the feet and ankles are some of the most frequently injured areas and pain experiences of the human body.</p>
                                     <a href="foot_conditions.html" class="btn-link">View Conditions</a>
                                 </div>
                             </div>
@@ -193,7 +192,7 @@
                             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                 <div class="treatment-content">
                                     <h2 class="treatment-title"><a href="spine_conditions.html" class="title">Spine</a></h2>
-                                    <p>Maecenas in erat egestas orci pharetra consequat. Donec nec volutpat magna. Phasellus rutrum augue aliquet, finibus drutrum augue aliquet, finibus duieuismod orci. euismod orci. </p>
+                                    <p>The back is made out of blocks of bone called vertebrae. Between these blocks are intervertebral discs made up of softer tissue. </p>
                                     <a href="spine_conditions.html" class="btn-link">View Conditions</a>
                                 </div>
                             </div>
@@ -270,24 +269,71 @@
 
     <!-- /.footer -->
 
-    <div class="modal fade search-modal" tabindex="-1" role="dialog" style="display: none;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for...">
-                            <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                         </span>
-                        </div>
-                        <!-- /input-group -->
-                    </div>
-                    <!-- /.col-lg-6 -->
-                </div>
+    <!-- Contact Modal -->
+
+      <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times  </button>
+              <h3 class="modal-title text-center" id="myModalLabel">Contact Us</h3>
             </div>
+            <div class="modal-body">
+
+              <form class="form-horizontal" method="post" action="index.html">
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Name"> </label>
+                      <div class="col-md-12">
+                          <input id="Name" name="Name" type="text" placeholder="Name" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Email"> </label>
+                      <div class="col-md-12">
+                          <input id="Email" name="Email" type="email" placeholder="Email" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Text input-->
+                  <div class="form-group">
+                      <label class="control-label" for="Phone"> </label>
+                      <div class="col-md-12">
+                          <input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control input-md">
+                      </div>
+                  </div>
+                  <!-- Select Basic -->
+                  <div class="form-group">
+                      <label class="control-label" for="Body Region"> </label>
+                      <div class="col-md-12">
+                          <select id="Body Region" name="Body Region" class="form-control">
+                              <option value="Shoulder">Shoulder</option>
+                              <option value=Knee>Knee</option>
+                              <option value="Foot & Ankle">Foot & Ankle</option>
+                              <option value="Hip">Hip</option>
+                              <option value="Spine">Spine</option>
+                          </select>
+                      </div>
+                  </div>
+                  <!-- Text input-->
+
+                  <!-- Button -->
+                  <div class="form-group">
+                      <div class="col-md-12 text-center">
+                          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send inquiry</button>
+                      </div>
+                  </div>
+              </form>
+
+                  </div>
+            </div>
+
+          </div>
         </div>
-    </div>
+
+
+    <!-- End of Contact Modal -->
+
     <!-- /.tiny_footer -->
     <!-- back to top icon -->
     <a href="#0" class="cd-top" title="Go to top">Top</a>
