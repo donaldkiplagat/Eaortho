@@ -4,7 +4,7 @@ $('.slider').owlCarousel({
         margin: 10,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 15000,
         navText: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'></i>"],
         responsive: {
             0: {
@@ -19,4 +19,3 @@ $('.slider').owlCarousel({
         }
     })
 });
- 
