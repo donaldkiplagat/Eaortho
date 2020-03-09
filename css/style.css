@@ -121,8 +121,8 @@ select.form-control { background-color: #fff; color: #a19e98; -webkit-appearance
 .btn { padding: 12px 18px; margin-bottom: 0; font-size: 14px; font-weight: 600; text-transform: uppercase; border-radius: 2px; letter-spacing: 1px; }
 .btn-default { color: #fff; background-color: #24bac0; border-color: #24bac0; }
 
-.btn-mordicai { color: #fff; background-color: #ecaa30; border-color: #ecaa30; margin-top: 10px; }
-.btn-njalalle { color: #fff; background-color: #24bac0; border-color: #24bac0; margin-top: 10px;}
+.btn-mordicai { color: #fff; background-color: #ecaa30; border-color: #ecaa30; margin-top: 10px; font-size: 13px; }
+.btn-njalalle { color: #fff; background-color: #24bac0; border-color: #24bac0; margin-top: 10px;font-size: 13px; }
 
 .btn-mordicai:hover { color: #fff; background-color: #ffb834; border-color: #ffb834; }
 .btn-njalalle:hover { color: #fff; background-color: #28cbd2; border-color: #28cbd2; }
@@ -450,11 +450,23 @@ button.btn { height: 50px; margin-right: -1px; }
 .slider .owl-dots .owl-dot.active span { background-color: #ecaa30; }
 .slider .owl-dots .owl-dot.active span, .slider .owl-controls.clickable .owl-page:hover span { background-color: #ecaa30; filter: Alpha(Opacity=100);    /*IE7 fix*/ opacity: 1; }
 
+.slider-box{
+  display:grid;
+  height:100%;
+}
+.slider-fit{
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
 
 /*-----------------------------------
 7. Content
 -------------------------------------*/
 .content { padding-bottom: 60px; padding-top: 30px; }
+.lifestyle-content {padding-top: 30px; }
+
 .sidebar { background-color: #fbf9f4; }
 
 .njalalle-content{display: none;}
@@ -791,6 +803,9 @@ button.btn { height: 50px; margin-right: -1px; }
 opacity: .5; }
 .no-touch .cd-top:hover { background-color: #6f4a52; opacity: 1; }
 
+
+
+
 /*------------------------
   12. Media Query
 --------------------------*/
@@ -810,6 +825,7 @@ opacity: .5; }
 
   .childern { padding-left: 0px; }
   .page-header { padding: 0px 0px 0px 0px; }
+
 }
 
 /* Medium Devices, Desktops */
@@ -823,6 +839,7 @@ opacity: .5; }
   .header-wrapper #navigation li a { color: #3f3f3f; }
   .childern { padding-left: 0px; }
   .page-header { padding: 0px 0px 0px 0px; }
+
 }
 
 /* Small Devices, Tablets */
@@ -837,6 +854,7 @@ opacity: .5; }
   .header { margin-bottom: 0px; }
   .childern { padding-left: 0px; }
   .page-header { padding: 0px 0px 0px 0px; }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -859,6 +877,8 @@ opacity: .5; }
   .page-section { padding: 40px 0px 40px 0px; }
   .page-title { font-size: 30px; }
   .cta { padding: 20px 0px 20px 0px; }
+  .owl-carousel .owl-item img {height:480px;}
+
 }
 
 /* Custom, iPhone Retina */
@@ -882,4 +902,6 @@ opacity: .5; }
   .page-section { padding: 40px 0px 40px 0px; }
   .page-title { font-size: 30px; }
   .cta { padding: 20px 0px 20px 0px; }
+  .owl-carousel .owl-item img {height:500px;}
+
 }
