@@ -115,6 +115,11 @@ select.form-control { background-color: #fff; color: #a19e98; -webkit-appearance
 .default-skin .ui-widget-header { border: 1px solid #ecaa30; background: #ecaa30; color: #fff; font-weight: bold; }
 .default-skin .ui-state-highlight, .default-skin .ui-widget-content .ui-state-highlight, .default-skin .ui-widget-header .ui-state-highlight { border: 1px solid #ecaa30; background: #ecaa30; color: #fff; }
 
+textarea.contact-textarea{height: 100px;}
+option[value=""][disabled]{
+  display:none;
+}
+
 /*-----------------------------------
     3. Buttons
 -----------------------------------*/
@@ -432,6 +437,7 @@ button.btn { height: 50px; margin-right: -1px; }
 -------------------------------------*/
 .slider { position: relative;}
 .slider-title { font-size: 38px; font-weight: 300; color: #fff}
+.thank-you-text { font-size: 30px; font-weight: 300; color: #fff}
 .slider-text { margin-bottom: 30px; color: #fff }
 .slider-img { background: -moz-linear-gradient(top, rgba(27, 38, 38, 0.5) 0%, rgba(27, 38, 38, 0.5) 100%); background: -webkit-linear-gradient(top, rgba(27, 38, 38, 0.5) 0%, rgba(27, 38, 38, 0.5) 100%); background: linear-gradient(to bottom, rgba(27, 38, 38, 0.5) 0%, rgba(27, 38, 38, 0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b2626', endColorstr='#1b2626', GradientType=0); position: relative; }
 .slider-img img {position: relative;  }
@@ -444,7 +450,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .owl-controls.clickable .owl-buttons div:hover { filter: Alpha(Opacity=100); opacity: 1; text-decoration: none; background-color: #ecaa30; }
 .slider .owl-nav .owl-prev { position: absolute; top: 50%; left: 0px; }
 .slider .owl-nav .owl-next { position: absolute; top: 50%; right: 0px; }
-.slider .owl-dots .owl-dot { position: relative; text-align: left; bottom: 40px; max-width: 1140px; margin: 0 auto; }
+.slider .owl-dots .owl-dot { position: relative; text-align: left; bottom: 150px; max-width: 1140px; margin: 0 auto; }
 .slider .owl-dots .owl-dot { }
 .slider .owl-dots .owl-dot span { display: block; width: 14px; height: 14px; margin: 0px 0px 10px 10px; filter: Alpha(Opacity=50);    /*IE7 fix*/ opacity: 0.8; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 2px solid #fff; float: left; }
 .slider .owl-dots .owl-dot.active span { background-color: #ecaa30; }

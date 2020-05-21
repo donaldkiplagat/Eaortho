@@ -180,7 +180,7 @@
                                                 <ul class="listnone sidenav conditions-list">
                                                   <li> <a href="acl_rupture.html"></i><span class="sidenav-text">Anterior Cruciate Ligament Rupture</span> </a></li>
                                                   <li> <a href="mcl_tear.html"></i><span class="sidenav-text">Medial Collateral Ligament Tear</span> </a></li>
-                                                  <li> <a href="meniscus_tears"></i><span class="sidenav-text">Meniscus Tears</span> </a></li>
+                                                  <li> <a href="meniscus_tears.html"></i><span class="sidenav-text">Meniscus Tears</span> </a></li>
                                                   <li> <a href="knee_osteoarthritis.html"></i><span class="sidenav-text">Osteoarthritis of the Knee</span> </a></li>
                                                   <li> <a href="patella_dislocation.html"></i><span class="sidenav-text">Patella (Knee Cap) Dislocation</span> </a></li>
                                                   <li> <a href="patella_chondromalacia.html"></i><span class="sidenav-text">Patella Chrondromalacia</span> </a></li>
@@ -238,10 +238,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="ft_phone">
-                          <span class="ft_icon"><i class="icon-phone-call-3 icon-1x"></i></span>
-                          <span class="phone_text">+254-200-93890<br>+254-600-87903</span>
-                        </div>
+              
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="ft_email">
@@ -251,29 +248,6 @@
                     </div>
 
                 </div>
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                      <div class="ft_social_share">
-                          <ul>
-                              <li>
-                                  <a href="#"> <i class="fa fa-facebook"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-twitter"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-google-plus"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-linkedin"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-youtube"></i></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                </div>
             </div>
 
         </div>
@@ -281,65 +255,75 @@
     <!-- /.footer -->
     <!-- Contact Modal -->
 
-      <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times  </button>
-              <h3 class="modal-title text-center" id="myModalLabel">Contact Us</h3>
-            </div>
-            <div class="modal-body">
-
-              <form class="form-horizontal" method="post" action="index.html">
-                  <!-- Text input-->
-                  <div class="form-group">
-                      <label class="control-label" for="Name"> </label>
-                      <div class="col-md-12">
-                          <input id="Name" name="Name" type="text" placeholder="Name" class="form-control input-md">
-                      </div>
-                  </div>
-                  <!-- Text input-->
-                  <div class="form-group">
-                      <label class="control-label" for="Email"> </label>
-                      <div class="col-md-12">
-                          <input id="Email" name="Email" type="email" placeholder="Email" class="form-control input-md">
-                      </div>
-                  </div>
-                  <!-- Text input-->
-                  <div class="form-group">
-                      <label class="control-label" for="Phone"> </label>
-                      <div class="col-md-12">
-                          <input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control input-md">
-                      </div>
-                  </div>
-                  <!-- Select Basic -->
-                  <div class="form-group">
-                      <label class="control-label" for="Body Region"> </label>
-                      <div class="col-md-12">
-                          <select id="Body Region" name="Body Region" class="form-control">
-                              <option value="Shoulder">Shoulder</option>
-                              <option value=Knee>Knee</option>
-                              <option value="Foot & Ankle">Foot & Ankle</option>
-                              <option value="Hip">Hip</option>
-                              <option value="Spine">Spine</option>
-                          </select>
-                      </div>
-                  </div>
-                  <!-- Text input-->
-
-                  <!-- Button -->
-                  <div class="form-group">
-                      <div class="col-md-12 text-center">
-                          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send inquiry</button>
-                      </div>
-                  </div>
-              </form>
-
-                  </div>
-            </div>
-
+    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times  </button>
+            <h3 class="modal-title text-center" id="myModalLabel">Contact Us</h3>
           </div>
+          <div class="modal-body">
+
+            <form class="form-horizontal" method="post" action="inquiry.php">
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="control-label" for="Name"> </label>
+                    <div class="col-md-12">
+                        <input id="Name" name="full_name" type="text" placeholder="Name" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="control-label" for="Email"> </label>
+                    <div class="col-md-12">
+                        <input id="Email" name="email" type="email" placeholder="Email" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="control-label" for="Subject"> </label>
+                    <div class="col-md-12">
+                        <input id="Subject" name="subject" type="text" placeholder="Subject" class="form-control input-md">
+                    </div>
+                </div>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="control-label" for="Body Region"> </label>
+                    <div class="col-md-12">
+                        <select id="Body Region" name="body_region" class="form-control">
+                            <option value="" disabled selected>Body region you want to inquire about</option>
+                            <option value="Shoulder">Shoulder</option>
+                            <option value=Knee>Knee</option>
+                            <option value="Foot & Ankle">Foot & Ankle</option>
+                            <option value="Hip">Hip</option>
+                            <option value="Spine">Spine</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Inquiry"> </label>
+                    <div class="col-md-12">
+                        <textarea id="Inquiry" name="inquiry" type="text" placeholder="Type your inquiry here" class="form-control input-md contact-textarea"></textarea>
+                    </div>
+                </div>
+
+
+                <!-- Text input-->
+
+                <!-- Button -->
+                <div class="form-group">
+                    <div class="col-md-12 text-center">
+                        <button id="singlebutton" name="submit" class="btn btn-primary" type="submit">Send inquiry</button>
+                    </div>
+                </div>
+            </form>
+
+                </div>
+          </div>
+
         </div>
+      </div>
 
 
     <!-- End of Contact Modal -->

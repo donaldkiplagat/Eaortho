@@ -87,9 +87,9 @@
 
                             <img src="images/logo-header.png" class = "slider-logo"alt="logo"  class="img-responsive">
 
-                            <h1 class="slider-title">Spine Treatment Experts</h1>
+                            <h1 class="slider-title">Back Pain</h1>
                             <!-- <p class="slider-text hidden-sm hidden-xs">Faucibus pulvinar elementum integer enim neque volutpat.</p> -->
-                            <a href="#" class="btn btn-default hidden-xs">Explore</a> </div>
+                            <a href="#treatment-explore" class="btn btn-default hidden-xs">Explore</a> </div>
                         <!-- /.slider-captions -->
                 </div>
             </div>
@@ -105,7 +105,7 @@
                             <img src="images/logo-header.png" class = "slider-logo"alt="logo"  class="img-responsive">
 
                             <h1 class="slider-title">Knee Pain Consultation</h1>
-                            <a href="#" class="btn btn-default hidden-xs">Explore</a> </div>
+                            <a href="#treatment-explore" class="btn btn-default hidden-xs">Explore</a> </div>
                         <!-- /.slider-captions -->
                 </div>
             </div>
@@ -120,15 +120,15 @@
                             <!-- slider-captions -->
                             <img src="images/logo-header.png" class = "slider-logo"alt="logo"  class="img-responsive">
 
-                            <h1 class="slider-title">Hip & Knee Disorders</h1>
-                            <a href="#" class="btn btn-default hidden-xs">Explore</a> </div>
+                            <h1 class="slider-title">Shoulder Pain Consultation</h1>
+                            <a href="#treatment-explore" class="btn btn-default hidden-xs">Explore</a> </div>
                         <!-- /.slider-captions -->
                 </div>
             </div>
         </div>
     </div>
     <!-- /.slider -->
-    <div class="space-medium">
+    <div class="space-medium" id="treatment-explore">
       <style>
       .row.text-center > div {
           display: inline-block;
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-offset-2 col-lg-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-xs-12">
-                    <div class="section-title text-center">
+                    <div class="section-title text-center" >
                         <h1>A wide range of Orthopaedic Treatment</h1>
                         <p>We specialize in treatment of Knee & Shoulder disorders, as well as offering general orthopaedic advice.</p>
                     </div>
@@ -310,10 +310,10 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="ft_phone">
+                        <!-- <div class="ft_phone">
                           <span class="ft_icon"><i class="icon-phone-call-3 icon-1x"></i></span>
                           <span class="phone_text">+254-200-93890<br>+254-600-87903</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="ft_email">
@@ -323,29 +323,8 @@
                     </div>
 
                 </div>
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                      <div class="ft_social_share">
-                          <ul>
-                              <li>
-                                  <a href="#"> <i class="fa fa-facebook"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-twitter"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-google-plus"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-linkedin"></i></a>
-                              </li>
-                              <li>
-                                  <a href="#"> <i class="fa fa-youtube"></i></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                </div>
+
+
             </div>
 
         </div>
@@ -363,39 +342,47 @@
             </div>
             <div class="modal-body">
 
-              <form class="form-horizontal" method="post" action="index.html">
+              <form class="form-horizontal" method="post" action="inquiry.php">
                   <!-- Text input-->
                   <div class="form-group">
                       <label class="control-label" for="Name"> </label>
                       <div class="col-md-12">
-                          <input id="Name" name="Name" type="text" placeholder="Name" class="form-control input-md">
+                          <input id="Name" name="full_name" type="text" placeholder="Name" class="form-control input-md">
                       </div>
                   </div>
                   <!-- Text input-->
                   <div class="form-group">
                       <label class="control-label" for="Email"> </label>
                       <div class="col-md-12">
-                          <input id="Email" name="Email" type="email" placeholder="Email" class="form-control input-md">
+                          <input id="Email" name="email" type="email" placeholder="Email" class="form-control input-md">
                       </div>
                   </div>
                   <!-- Text input-->
                   <div class="form-group">
-                      <label class="control-label" for="Phone"> </label>
+                      <label class="control-label" for="Subject"> </label>
                       <div class="col-md-12">
-                          <input id="Phone" name="Phone" type="text" placeholder="Phone" class="form-control input-md">
+                          <input id="Subject" name="subject" type="text" placeholder="Subject" class="form-control input-md">
                       </div>
                   </div>
                   <!-- Select Basic -->
                   <div class="form-group">
                       <label class="control-label" for="Body Region"> </label>
                       <div class="col-md-12">
-                          <select id="Body Region" name="Body Region" class="form-control">
+                          <select id="Body Region" name="body_region" class="form-control">
+                              <option value="" disabled selected>Body region you want to inquire about</option>
                               <option value="Shoulder">Shoulder</option>
                               <option value=Knee>Knee</option>
                               <option value="Foot & Ankle">Foot & Ankle</option>
                               <option value="Hip">Hip</option>
                               <option value="Spine">Spine</option>
+                              <option value="Other">Other</option>
                           </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label class="control-label" for="Inquiry"> </label>
+                      <div class="col-md-12">
+                          <textarea id="Inquiry" name="inquiry" type="text" placeholder="Type your inquiry here" class="form-control input-md contact-textarea"></textarea>
                       </div>
                   </div>
 
@@ -405,7 +392,7 @@
                   <!-- Button -->
                   <div class="form-group">
                       <div class="col-md-12 text-center">
-                          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send inquiry</button>
+                          <button id="singlebutton" name="submit" class="btn btn-primary" type="submit">Send inquiry</button>
                       </div>
                   </div>
               </form>
