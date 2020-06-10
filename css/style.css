@@ -485,7 +485,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .footer_logo { }
 .footer_about { }
 .footer_contact { border-bottom: 2px solid #4a4c4c; }
-.footer_sections { margin-bottom: 60px; }
+.footer_sections { margin-bottom: 5px; }
 .ft_address { margin-bottom: 30px; }
 .address_text { }
 .phone_text { }
@@ -506,7 +506,7 @@ button.btn { height: 50px; margin-right: -1px; }
 .ft_menu ul li a:hover { color: #ecaa30; }
 .newsletter_form { margin-top: 30px; }
 .newsletter_form .form-control { background-color: #434545; border: 1px solid #434545; height: 51px; }
-.tiny_footer { background-color: #292b2b; text-align: center; padding-bottom: 20px; padding-top: 10px; }
+.tiny_footer { background-color: #292b2b; text-align: center; padding-bottom: 2px; padding-top: 2px; }
 
 /*-----------------------------------
 9. Template Pages

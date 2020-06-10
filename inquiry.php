@@ -2,8 +2,16 @@
 
 if(isset($_POST['submit'])){
 
+  // robot detection
+  $honeypot = $_POST["email"];
+
+  if(!empty($honeypot)) {
+    echo "BAD ROBOT!";
+    exit;
+  }
+
   $full_name = $_POST['full_name'];
-  $email = $_POST['email'];
+  $baruameme = $_POST['baruameme'];
   $body_region = $_POST['body_region'];
   $inquiry = $_POST['inquiry'];
   $subject = $_POST['subject'];
@@ -16,7 +24,7 @@ if(isset($_POST['submit'])){
 
   //Create a new PHPMailer instance
   $mail = new PHPMailer;
-//  $mail->SMTPDebug = 4;                               // Enable verbose debug output
+  //$mail->SMTPDebug = 4;                               // Enable verbose debug output
 
 
   //Tell PHPMailer to use SMTP - requires a local mail server
@@ -35,13 +43,12 @@ if(isset($_POST['submit'])){
   $mail->setFrom('info@ea-ortho.com', 'EA-Ortho');
   //Send the message to yourself, or whoever should receive contact for submissions
   $mail->addAddress('info@ea-ortho.com', 'EA-Ortho');
-  $mail->addBCC('info2@ea-ortho.com');
   $mail->addBCC('donald.k.kiplagat@gmail.com');
 
   //Put the submitter's address in a reply-to header
   //This will fail if the address provided is invalid,
   //in which case we should ignore the whole request
-  if ($mail->addReplyTo($email,$email)) {
+  if ($mail->addReplyTo($baruameme,$baruameme)) {
       $mail->Subject = '[EA-Ortho Inquiry Form] - '.$subject;
       //Keep it simple - don't use HTML
       $mail->isHTML(false);
@@ -49,7 +56,7 @@ if(isset($_POST['submit'])){
 
       $mail->Body = <<<EOT
 Name: {$full_name}
-Email: {$email}
+Email: {$baruameme}
 
 Body Region inquired about: {$body_region}
 
@@ -61,7 +68,7 @@ EOT;
       //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 
-//      echo 'Mailer Error: ' . $mail->ErrorInfo;
+     // echo 'Mailer Error: ' . $mail->ErrorInfo;
 
       //Send the message, check for errors
       if (!$mail->send()) {
@@ -79,7 +86,7 @@ Thank you for contacting our team. Your inquiry has been received and a response
 The details of your inquiry are as shown below:
 
 Name: {$full_name}
-Email: {$email}
+Email: {$baruameme}
 
 Body Region inquired about: {$body_region}
 
@@ -90,7 +97,7 @@ Body Region inquired about: {$body_region}
 Kind Regards,
 EA-Ortho Team
 EOT;
-        $mail->AddAddress($email);
+        $mail->AddAddress($baruameme);
         $mail->Send();
 
         header("Location:thank_you.html");
