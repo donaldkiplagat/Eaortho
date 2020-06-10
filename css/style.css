@@ -466,6 +466,14 @@ button.btn { height: 50px; margin-right: -1px; }
   margin: auto;
 }
 
+/* Navbar Logo */
+.logo-responsive {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 200px;
+    vertical-align: top;
+}
 
 /*-----------------------------------
 7. Content
